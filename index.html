@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Teens Class</title>
+<meta name="description" content="A weekly Christian Science lesson from Los Gatos Sunday School">
+<meta name="referrer" content="no-referrer">
+<style>
+
+:root{--bg:#ffffff;--bg-subtle:#f6f7f9;--text-1:#0f1115;--text-2:#4a4f59;--text-3:#7a808a;--border:#e3e5e9;--border-subtle:#eef0f2;--border-strong:#c9cdd3;--accent:#1d6ff2;--accent-2:#e3a400;--accent-3:#11a8c4;--plus:#1a8a4a;--minus:#c23b3b;--font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#111316;--bg-subtle:#1a1d21;--text-1:#f1f3f5;--text-2:#b4bac3;--text-3:#878e98;--border:#2b2f35;--border-subtle:#22262b;--border-strong:#3a3f46;--accent:#5b9bff;--accent-2:#f2c14e;--accent-3:#46c8de;--plus:#4cc283;--minus:#ff7a7a}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text-1);font-family:var(--font);font-size:15px;line-height:1.55;-webkit-text-size-adjust:100%}
+a{color:inherit}
+.page{max-width:1280px;margin:0 auto;padding:40px 32px 80px}
+.kicker{color:var(--accent);font-size:13px;font-weight:500;text-decoration:none;display:inline-block;margin-bottom:12px}
+.kicker:hover{text-decoration:underline}
+.title{font-size:36px;line-height:42px;letter-spacing:-0.02em;font-weight:600;margin:0 0 14px}
+.band{scroll-margin-top:16px;display:flex;flex-direction:column;gap:16px}
+.card{border:1px solid var(--border);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:12px}
+.card-h{margin:0;font-size:18px;line-height:25px;font-weight:600}
+.caption{margin:-6px 0 0;color:var(--text-3);font-size:13px}
+.text{margin:0;color:var(--text-1);max-width:860px}
+.lede{color:var(--text-2);font-size:18px;line-height:27px;font-weight:400;max-width:720px}
+.dateline{color:var(--text-3);font-size:13px;line-height:18px;margin-top:10px}
+.bullets{margin:0;padding-left:20px;max-width:860px;display:flex;flex-direction:column;gap:8px}
+.callout{background:var(--bg-subtle);border-radius:12px;padding:16px 18px;border-left:3px solid var(--accent);max-width:860px}
+.callout-lead{font-weight:600;margin-bottom:4px}
+.dinner{background:var(--bg-subtle);border-radius:16px;padding:20px;border-left:3px solid var(--accent-2);max-width:860px;display:flex;flex-direction:column;gap:8px}
+.dinner-q{margin:0;font-size:18px;line-height:25px;font-weight:600}
+.quote{margin:0;border:1px solid var(--border);border-radius:16px;padding:18px 20px;max-width:860px}
+.quote blockquote{margin:0 0 8px;font-size:16px}.quote figcaption{color:var(--text-3);font-size:13px}
+.toc{margin-top:18px;font-size:13px}
+.toc summary{cursor:pointer;color:var(--text-2);list-style:none;display:inline-flex;align-items:center;gap:6px}
+.toc summary::-webkit-details-marker{display:none}
+.toc summary::after{content:"";width:6px;height:6px;border-right:1.5px solid var(--text-3);border-bottom:1.5px solid var(--text-3);transform:rotate(-45deg);transition:transform 150ms ease}
+.toc[open] summary::after{transform:rotate(45deg)}
+.toc nav{display:flex;flex-direction:column;gap:6px;margin-top:10px;padding-left:12px;border-left:1px solid var(--border-subtle)}
+.toc nav a{text-decoration:none;color:var(--text-1)}.toc-n{color:var(--accent)}
+.foot{margin-top:48px;color:var(--text-3);font-size:13px;max-width:720px}
+.edition{color:var(--text-3);font-size:13px;line-height:18px;margin-top:14px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.edition a{color:var(--accent);text-decoration:none}.edition a:hover{text-decoration:underline}
+.pill{display:inline-flex;align-items:center;padding:4px 12px;border-radius:9999px;border:1px solid var(--border);color:var(--text-2);font-family:var(--font);font-size:13px;line-height:18px;text-decoration:none;width:fit-content}
+.pill:hover{border-color:var(--border-strong);color:var(--accent)}
+.media{max-width:720px;margin:0}
+.media img{width:100%;height:auto;border-radius:16px;border:1px solid var(--border);display:block;background:var(--bg-subtle)}
+.media figcaption{color:var(--text-3);font-size:13px;margin-top:8px}
+.cite{color:var(--text-2);font-style:italic}
+.card-h a{text-decoration:none;color:var(--text-1)}.card-h a:hover{color:var(--accent)}
+.signoff{margin-top:8px}
+.notes{margin-top:8px;border:1px solid var(--border);border-radius:16px;padding:16px 20px;max-width:860px}
+.notes>summary{cursor:pointer;font-size:18px;line-height:25px;font-weight:600;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.notes>summary::-webkit-details-marker{display:none}
+.notes>summary::after{content:"";flex:0 0 auto;width:7px;height:7px;border-right:1.5px solid var(--text-3);border-bottom:1.5px solid var(--text-3);transform:rotate(45deg);transition:transform 150ms ease}
+.notes[open]>summary::after{transform:rotate(-135deg)}
+.notes-lead{color:var(--text-2);font-size:14px;font-weight:400;margin:4px 0 0}
+.notes-body{display:flex;flex-direction:column;gap:16px;margin-top:16px;padding-top:8px;border-top:1px solid var(--border-subtle)}
+a.inline{color:var(--accent);text-decoration:none}
+a.inline:hover{text-decoration:underline}
+@media (max-width:760px){.page{padding:24px 16px 60px}.title{font-size:28px;line-height:34px}}
+
+.tbd{background:color-mix(in srgb,var(--accent-2) 22%,transparent);padding:0 4px;border-radius:4px}
+
+</style>
+</head>
+<body>
+<main class="page">
+<a class="kicker" href="./">The Teens Class</a>
+<h1 class="title">The Teens Class</h1>
+<div class="lede">A weekly Christian Science lesson from Los Gatos Sunday School</div>
+<div class="dateline">Weekly recaps for students and parents, with teaching notes for other Sunday School teachers. Editions begin on November 8, 2026.</div>
+<div class="edition"><a href="./">All recaps</a><a href="2026-11-15/">Latest edition</a><a href="archive/">Old editions</a></div>
+<div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+<div class="card">
+<h3 class="card-h"><a href="2026-11-15/">Sunday, November 15, 2026. Mortals and Immortals: Off with the Old, On with the New</a></h3>
+<ul class="bullets">
+<li>Main message: throwing away the old clothes represents coming full circle out of poverty, blindness, and a very limited perspective on life.</li>
+<li>Bible story: Bartimaeus casts away his garment (Mark 10:50)</li>
+<li>Take-home: Off with the Old, On with the New worksheet</li>
+</ul>
+</div>
+<div class="card">
+<h3 class="card-h"><a href="2026-11-08/">Sunday, November 8, 2026. Adam and Fallen Man</a></h3>
+<ul class="bullets">
+<li>Main message: God&#x27;s children never fell. We are made in God&#x27;s image, and that is very good.</li>
+<li>Story time: Maid, Arise, the healing of Jairus&#x27; daughter</li>
+<li>Case study: The starting spot (Jack and Ben)</li>
+</ul>
+</div>
+</div>
+<p class="foot">From the Los Gatos Christian Science Sunday School Teens Class. Student names and photos are not included.</p>
+</main>
+</body>
+</html>
