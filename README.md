@@ -1,6 +1,6 @@
 # The Teens Class
 
-A weekly Christian Science lesson from Los Gatos Sunday School.
+A recap from the teens Sunday School class at the Christian Science church in Los Gatos.
 
 This is a static site for GitHub Pages. Repository: [cameron013/christian-science-sunday-school-teens-los-gatos](https://github.com/cameron013/christian-science-sunday-school-teens-los-gatos). The live site is at [cameron013.github.io/christian-science-sunday-school-teens-los-gatos](https://cameron013.github.io/christian-science-sunday-school-teens-los-gatos/).
 
@@ -15,4 +15,4 @@ Do not add personal information to this public site. That includes student or fa
 - `2026-11-15/`: Mortals and Immortals: Off with the Old, On with the New
 - `2026-11-08/`: Adam and Fallen Man
 
-Each edition follows the family recap format (greeting, thank-you, lesson summary, reading, looking ahead), then adds a take-home when there is one, a dinner question, and collapsed teaching notes.
+Each edition has a lesson summary, reading, and looking ahead, then adds a take-home when there is one, a dinner question, and collapsed teaching notes.
