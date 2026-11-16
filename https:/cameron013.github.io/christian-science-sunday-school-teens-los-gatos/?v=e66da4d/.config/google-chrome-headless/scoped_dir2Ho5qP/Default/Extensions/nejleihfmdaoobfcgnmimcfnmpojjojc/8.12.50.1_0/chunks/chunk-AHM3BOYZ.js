@@ -1,5 +1,0 @@
-
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="13f920bd-dedc-5bfb-a9ab-7a8e8f72e400")}catch(e){}}();
-import{a as g}from"/chunks/chunk-QRWKNVOS.js";import{la as e}from"/chunks/chunk-FDPW6X3I.js";import{d as m}from"/chunks/chunk-5OVDVCUE.js";var d=m(g()),p=(o,t)=>{let c=(0,d.useRef)(new Set);return{recordTelemetryEvent:(0,d.useCallback)((...[r,s,n])=>{if(t&&r!=="click"){let i=r==="background-action"?s.name:s.componentName,l=JSON.stringify([n??"all-accounts",t,r,i]);if(c.current.has(l))return;c.current.add(l)}if(r==="background-action"){let i={category:o,...s};n?e("record-background-action-event",{accountUuid:n,event:i}):e("record-background-action-event-all-accounts",{event:i});return}let a={category:o,...s};n?e(`record-${r}-event`,{accountUuid:n,event:a}):e(`record-${r}-event-all-accounts`,{event:a})},[o,t])}};var E=(o,t,c)=>{e("report-error",{name:o.str,message:t.str,severity:"error",stack:c})};export{p as a,E as b};
-
-//# debugId=13f920bd-dedc-5bfb-a9ab-7a8e8f72e400
